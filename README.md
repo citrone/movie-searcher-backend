@@ -3,4 +3,4 @@
 
 # Movie Searcher Backend
 
-API for the movie searcher app
+API for the movie searcher application
