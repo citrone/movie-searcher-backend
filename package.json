@@ -4,6 +4,7 @@
     "description": "API for the movie searcher app",
     "main": "index.js",
     "scripts": {
+        "start": "node src/app.js",
         "test": "cucumber-js",
         "build": "npm test"
     },
