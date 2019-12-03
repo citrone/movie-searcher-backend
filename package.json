@@ -1,24 +1,28 @@
 {
-  "name": "movie-searcher-backend",
-  "version": "0.0.1",
-  "description": "API for the movie searcher app",
-  "main": "index.js",
-  "scripts": {
-    "test": "cucumber-js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/citrone/movie-searcher-backend.git"
-  },
-  "keywords": [
-    "API",
-    "movie",
-    "search"
-  ],
-  "author": "Gabriel Cirtea",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/citrone/movie-searcher-backend/issues"
-  },
-  "homepage": "https://github.com/citrone/movie-searcher-backend#readme"
+    "name": "movie-searcher-backend",
+    "version": "0.0.1",
+    "description": "API for the movie searcher app",
+    "main": "index.js",
+    "scripts": {
+        "test": "cucumber-js",
+        "build": "npm test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/citrone/movie-searcher-backend.git"
+    },
+    "keywords": [
+        "API",
+        "movie",
+        "search"
+    ],
+    "author": "Gabriel Cirtea",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/citrone/movie-searcher-backend/issues"
+    },
+    "homepage": "https://github.com/citrone/movie-searcher-backend#readme",
+    "devDependencies": {
+        "cucumber": "^6.0.5"
+    }
 }
