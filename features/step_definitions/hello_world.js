@@ -1,5 +1,5 @@
 const assert = require("assert");
-const { Given, When, Then } = require("cucumber");
+const { Given, When, Then, After } = require("cucumber");
 const axios = require("axios");
 
 const server = require("../../src/app");
@@ -21,4 +21,8 @@ When("I visit the {string} route", async function(string) {
 
 Then("I should get {string}", function(expectedResponse) {
     assert.equal(actualResponse, expectedResponse);
+});
+
+After(function() {
+    server.close();
 });
