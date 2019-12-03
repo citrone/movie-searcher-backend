@@ -1,5 +1,5 @@
 ![](https://github.com/citrone/movie-searcher-backend/workflows/Node%20CI/badge.svg)
-![](https://github.com/citrone/movie-searcher-backend/license)
+![](https://github.com/citrone/movie-searcher-backend/license/badge.svg)
 
 # Movie Searcher Backend
 
