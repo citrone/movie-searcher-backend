@@ -8,7 +8,7 @@ let actualResponse = "";
 
 Given("I have an axios instance", function() {
     this.axiosInstance = axios.create({
-        baseURL: "http://localhost:8080/",
+        baseURL: `http://localhost:${process.env.PORT || 8080}/`,
         timeout: 5000,
     });
 });
